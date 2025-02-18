@@ -1,0 +1,108 @@
+body {
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+div {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #b22222; /* Dark Red */
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Featured Post & Latest Posts */
+.featured-post, .latest-posts {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-post h2, .latest-posts h2 {
+    text-align: center;
+    color: #b22222;
+}
+
+article {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+article h3 {
+    margin: 0;
+}
+
+article a {
+    color: #b22222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/* Authentication Pages */
+.auth-container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px 50px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.auth-container h2 {
+    margin-bottom: 20px;
+    color: #b22222;
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.auth-container button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: #b22222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-container button:hover {
+    background: #8b0000;
+}
+
+.auth-container p {
+    margin-top: 10px;
+}

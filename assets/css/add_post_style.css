@@ -1,0 +1,107 @@
+/* Main container for adding a new post */
+.post-container {
+    width: 50%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px 50px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+.post-container h2 {
+    text-align: center;
+    color: #b22222;
+}
+
+/* Form styling */
+.post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input group styling */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Input fields */
+.input-group input,
+.input-group textarea,
+.input-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.input-group input,
+.input-group textarea {
+    margin: 10px -10px;
+}
+
+/* Floating labels */
+.input-group label {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #777;
+    transition: 0.3s ease;
+    pointer-events: none;
+}
+
+/* Move label up on focus or when input has value */
+.input-group input:focus + label,
+.input-group input:valid + label,
+.input-group textarea:focus + label,
+.input-group textarea:valid + label,
+.input-group select:focus + label {
+    top: 5px;
+    left: 10px;
+    font-size: 12px;
+    color: #b22222;
+}
+
+/* Textarea size */
+.input-group textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Submit button */
+.btn-submit {
+    background-color: #b22222;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #8b1a1a;
+}
+
+/* Back link */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #b22222;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
